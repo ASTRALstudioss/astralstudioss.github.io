@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modchart Editor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Modchart Editor</h1>
+
+  <div id="controls">
+    <input type="file" id="audioInput" accept="audio/*" />
+    <button id="playBtn">Play</button>
+    <button id="pauseBtn">Pause</button>
+    <button id="addKFBtn">Add Keyframe</button>
+    <button id="removeKFBtn">Remove Keyframe</button>
+  </div>
+
+  <div id="timeline">
+    <div id="timelineTrack"></div>
+    <div id="timelineMarker"></div>
+  </div>
+
+  <div id="keyframeList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
